@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <section class="register-section">
+        <h2>Regístrate como Terapeuta</h2>
+        <form id="therapist-registration-form"  method="POST">
+            <div class="form-group">
+                <label for="therapist-name">Nombre</label>
+                <input type="text" id="therapist-name" name="therapist-name" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-surname">Apellido</label>
+                <input type="text" id="therapist-surname" name="therapist-surname" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-pass">Contraseña</label>
+                <input type="password" id="therapist-pass" name="therapist-pass" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-pass-bis">Confirmar Contraseña</label>
+                <input type="password" id="therapist-pass-bis" name="therapist-pass-bis" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-dni">Dni</label>
+                <input type="text" id="therapist-dni" name="therapist-dni" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-phone">Telefono</label>
+                <input type="text" id="therapist-phone" name="therapist-phone" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-email">Correo Electrónico</label>
+                <input type="email" id="therapist-email" name="therapist-email" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist-especialidad">Especialidad</label>
+                <input type="password" id="therapist-especialidad" name="therapist-especialidad" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Registrarse</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+<script src="comprobaciones-form.js"></script>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscar Terapeutas</title>
+<link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo">TheraFind.com</div>
+			<div class="nav-buttons">
+				<a href="#">Inicio</a> <a href="#">Iniciar sesión</a> <a
+					href="form-registro.html">Registrarse</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<h1>Encuentra el terapeuta perfecto para ti</h1>
+
+		</section>
+
+		<section class="search-section">
+			<div class="search-box">
+				<input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+				<select id="especialidad" name="especialidad">
+					<option value="" >Especialidad</option>
+					<option value="fisioterapia_ginecologica">Fisioterapia
+						Ginecológica</option>
+					<option value="terapeuta_ocupacional">Terapeuta
+						Ocupacional</option>
+					<option value="fisioterapia_respiratoria">Fisioterapia
+						Respiratoria</option>
+					<option value="fisioterapia_deportiva">Fisioterapia
+						Deportiva</option>
+					<option value="fisioterapia_neurologica_adultos">Fisioterapia
+						Neurológica (Adultos)</option>
+					<option value="fisioterapia_neurologica_ninos">Fisioterapia
+						Neurológica (Niños)</option>
+					<option value="psicologia_adultos">Psicología (Adultos)</option>
+					<option value="psicologia_adolescentes">Psicología
+						(Adolescentes)</option>
+					<option value="psicologia_ninos">Psicología (Niños)</option>
+					<option value="nutricion">Nutrición</option>
+					<option value="ENTRENADOR_PERSONAL">Entrenador Personal</option>
+				</select>
+				<button type="button" id="btnBuscar">Buscar</button>
+			</div>
+		</section>
+
+	</main>
+
+
+	<section class="therapists">
+
+		<div>
+			<h2>Nuestros Terapeutas</h2>
+		</div>
+		<div class="therapist-container">
+			<div class="therapist">
+				<div class="therapist-image-container">
+					<img src="imagenes/ana_mellado_fisioterapia_uroginecologica.jpg"
+						alt="Terapeuta 1">
+				</div>
+
+				<div class="therapist-info">
+					<h3>Ana Martínez</h3>
+					<p>Ana es una médica pediatra y obstetra comprometida con el
+						bienestar de los niños, bebés y mujeres embarazadas. Con una
+						pasión por la atención médica de calidad, Ana se dedica a
+						proporcionar un cuidado compasivo y experto a sus pacientes. Su
+						enfoque centrado en el paciente y su amplio conocimiento en
+						pediatría y obstetricia la convierten en una opción confiable para
+						familias que buscan atención médica de calidad y atención
+						personalizada.</p>
+				</div>
+			</div>
+			<div class="therapist">
+				<div class="therapist-image-container">
+					<img src="imagenes/juan_garcia_fisiotepia_deportiva.jpg"
+						alt="Terapeuta 2">
+				</div>
+
+				<div class="therapist-info">
+					<h3>Juan López</h3>
+					<p>Juan es un fisioterapeuta especializado en el tratamiento de
+						lesiones deportivas, con un enfoque particular en el fútbol. Su
+						pasión por el deporte y su dedicación a la rehabilitación lo
+						convierten en un aliado invaluable para atletas de todos los
+						niveles. Con años de experiencia en el campo, Juan se especializa
+						en la rehabilitación de lesiones musculares y articulares,
+						ayudando a sus pacientes a recuperarse y volver a su máximo
+						rendimiento</p>
+				</div>
+			</div>
+			<div class="therapist">
+
+				<div class="therapist-image-container">
+					<img src="imagenes/maria_torrel_fisioterapia_atm.jpg"
+						alt="Terapeuta 3">
+				</div>
+
+				<div class="therapist-info">
+					<h3>Laura Sánchez</h3>
+					<p>María es una especialista altamente cualificada en el
+						tratamiento de trastornos de la Articulación Temporo Mandibular
+						(ATM). Con una sólida formación y años de experiencia en
+						odontología, María se ha especializado en el diagnóstico y
+						tratamiento de problemas de la mandíbula. Su enfoque personalizado
+						y su dedicación a la salud bucal de sus pacientes la convierten en
+						una opción confiable para aquellos que buscan soluciones efectivas
+						para sus problemas de mandíbula.</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="testimonials-container">
+		<div>
+			<h2>Nuestros clientes opinan</h2>
+		</div>
+		<div class="testimonials">
+			<div class="testimonial">
+				<div class="testimonial-image-container">
+					<img src="imagenes/cara-user1.jpg" alt="">
+				</div>
+				<p>"Terapeuta perfecto en mi ciudad me ayudó a mejorar mi salud
+					mental significativamente."</p>
+				<p>- Borjn Oztër</p>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-image-container">
+					<img src="imagenes/cara-user2.jpg" alt="">
+				</div>
+				<p>"La plataforma me permitió reservar una cita rápidamente y el
+					terapeuta fue excelente."</p>
+				<p>- Yuki Aoka</p>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-image-container">
+					<img src="imagenes/cara-user3.jpg" alt="">
+				</div>
+				<p>"Un servicio excepcional que me ayudó a encontrar apoyo
+					cuando más lo necesitaba."</p>
+				<p>- Marlos Alonso</p>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<p>&copy; 2024 TherapyFinder. Todos los derechos reservados.</p>
+	</footer>
+</body>
+<script src="/js/busqueda.js"></script>
+</html>
